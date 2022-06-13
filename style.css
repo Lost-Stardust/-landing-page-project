@@ -1,9 +1,5 @@
 /* Colorful borders for easy understanding*/
 
-.header {
-    border: solid 5px black;
-}
-
 .header-links {
     border: solid 4px red;
 }
@@ -12,10 +8,62 @@
     border: solid 4px yellow;
 }
 
-ul {
+.links {
     border: solid 4px purple;
+}
+
+.text {
+    border: solid 4px greenyellow;;
 }
 
 .subtext {
     border: solid 4px green;
+}
+
+/* Header styling */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 8px;
+}
+
+.text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
 }
