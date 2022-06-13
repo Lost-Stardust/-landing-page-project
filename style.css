@@ -1,0 +1,15 @@
+.header {
+    border: solid 4px red;
+}
+
+.header-content {
+    border: solid 4px yellow;
+}
+
+ul {
+    border: solid 4px purple;
+}
+
+.subtext {
+    border: solid 4px green;
+}
