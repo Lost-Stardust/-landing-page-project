@@ -7,7 +7,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #ffffff;
 }
 
 .header-links {
@@ -147,6 +147,7 @@ div div div img {
     font-size: 36px;
     font-weight: lighter;
     height: 250px;
+    margin-top: 50px;
 }
 
 .godot {
@@ -156,4 +157,61 @@ div div div img {
     margin-left: 800px;
     font-size: 30px;
     font-weight: bold;
+}
+
+/*read berserk notification*/
+
+.action {
+    background-color: #f63838;
+    color: white;
+    display: flex;
+    width: 700px;
+    height: 80px;
+    padding: 10px;
+    gap: 15px ;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    gap: 10px;
+   
+}
+
+.discription {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+button {
+    margin: auto;
+    margin-right: 100px;
+    height: 40px;
+    width: 100px;
+    border: solid white;
+    border-radius: 10px;
+    background-color: #f63838;
+    color: white;
+}
+
+button a:hover {
+    color: white;
+}
+
+button a {    
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 1em;     
+    margin: -2em;     
 }
