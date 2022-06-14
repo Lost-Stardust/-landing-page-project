@@ -63,7 +63,7 @@ a {
     flex-shrink: 1;
 }
 
-img {
+.head-img  {
     width: 400px;
     height: 300px;
     flex: 1 1 0;
@@ -88,7 +88,7 @@ a:hover {
     color: #c00000;
 }
 
-/*Character information styling*/
+/*Character information styling*/ 
 
 h1 {
     display: flex;
@@ -100,7 +100,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 10px;
 }
 
 .characters-1, .characters-2 {
@@ -117,15 +117,12 @@ p {
 
 p a {
     color: black;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 div div div img {
-    width: 300px;
-}
-
-.isidro img {
-    width: 300px;
+    width: 170px;
+    height: 170px;
 }
 
 .characters-1 img, .characters-2 img {
