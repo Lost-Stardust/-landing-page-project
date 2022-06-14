@@ -135,3 +135,25 @@ div div div img {
     border-radius: 300px;
 }
 
+/*Quote*/ 
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+    color: #dcdee0;
+    font-size: 36px;
+    font-weight: lighter;
+    height: 250px;
+}
+
+.godot {
+    display: flex;
+    justify-content: end;
+    margin-top: 18px;
+    margin-left: 800px;
+    font-size: 30px;
+    font-weight: bold;
+}
