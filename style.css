@@ -84,5 +84,6 @@ img {
 }
 
 a:hover {
-    font-weight: 700;
+    font-weight: bold;
+    color: #c00000;
 }
