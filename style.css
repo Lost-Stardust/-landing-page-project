@@ -90,40 +90,51 @@ a:hover {
 
 /*Character information styling*/
 
-/*Color borders*/
-.characters {
-    border: black solid 5px;
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
 }
 
-.guts {
-    border: solid red ;
+.characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
 
-.griffith {
-    border: solid blue ;
+.characters-1, .characters-2 {
+    display: flex;
+    gap: 40px;
 }
 
-.casca {
-    border: solid purple ;
+p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    height: 40px;
 }
 
-.puck {
-    border: solid green ;
+p a {
+    color: black;
+    font-size: 26px;
 }
 
-.schierke {
-    border: solid turquoise ;
+div div div img {
+    width: 300px;
 }
 
-.isidro {
-    border: solid yellow ;
+.isidro img {
+    width: 300px;
 }
 
-.farnese {
-    border: solid orange ;
+.characters-1 img, .characters-2 img {
+    border: solid black 3px;
+    padding: 10px;
+    border-radius: 200px;
 }
 
-.serpico {
-    border: solid brown; 
+.characters-2 .isidro img{
+    border-radius: 300px;
 }
-/*Color borders end*/
+
