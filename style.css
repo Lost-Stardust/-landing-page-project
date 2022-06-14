@@ -87,3 +87,43 @@ a:hover {
     font-weight: bold;
     color: #c00000;
 }
+
+/*Character information styling*/
+
+/*Color borders*/
+.characters {
+    border: black solid 5px;
+}
+
+.guts {
+    border: solid red ;
+}
+
+.griffith {
+    border: solid blue ;
+}
+
+.casca {
+    border: solid purple ;
+}
+
+.puck {
+    border: solid green ;
+}
+
+.schierke {
+    border: solid turquoise ;
+}
+
+.isidro {
+    border: solid yellow ;
+}
+
+.farnese {
+    border: solid orange ;
+}
+
+.serpico {
+    border: solid brown; 
+}
+/*Color borders end*/
