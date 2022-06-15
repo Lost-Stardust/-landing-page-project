@@ -172,6 +172,7 @@ div div div img {
     border-radius: 6px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 200px;
 }
 
 .title {
@@ -185,7 +186,7 @@ div div div img {
     font-weight: bold;
     font-size: 20px;
     gap: 10px;
-   
+   padding-left: 60px
 }
 
 .discription {
@@ -208,10 +209,23 @@ button a:hover {
     color: white;
 }
 
-button a {    
-    display: inline-block;     
+button a {         
     position: relative;    
     z-index: 1;     
     padding: 1em;     
     margin: -2em;     
+}
+
+/*Footer*/
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
 }
