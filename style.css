@@ -172,7 +172,7 @@ div div div img {
     border-radius: 6px;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .title {
@@ -219,7 +219,7 @@ button a {
 /*Footer*/
 
 #footer {
-    position: fixed;
+    position:relative;
     bottom: 0;
     width: 100%;
     padding: 20px;
